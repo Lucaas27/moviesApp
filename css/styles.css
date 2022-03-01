@@ -59,7 +59,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
   gap: 20px;
   justify-content: center;
   padding: 50px;
@@ -83,7 +83,7 @@ body {
   align-items: center;
   justify-content: space-around;
   gap: 0.2rem;
-  padding: 0.8rem 0;
+  padding: 0.8rem 0.8rem;
   letter-spacing: 1.2px;
 }
 
