@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
     />
+    <script
+      src="https://kit.fontawesome.com/ee1b094ea5.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Movies App</title>
   </head>
@@ -17,53 +21,34 @@
         <input type="text" class="search__input" placeholder="Search" />
       </form>
     </header>
-    <main class="main">
-      <!-- <div class="movie">
-        <img class="movie__img" src="/img/movies.jpg" alt="movie image" />
-        <div class="movie__info">
-          <h3 class="movie__title">Title</h3>
-          <span class="movie__rating movie__rating--green">9.8</span>
-        </div>
-        <div class="overview">
-          <h3 class="overview__title">Overview</h3>
-          <p class="overview__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            nihil dolor consequuntur voluptatibus blanditiis iste totam optio
-            natus quidem ea!
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img class="movie__img" src="/img/movies.jpg" alt="movie image" />
-        <div class="movie__info">
-          <h3 class="movie__title">Title</h3>
-          <span class="movie__rating movie__rating--orange">9.8</span>
-        </div>
-        <div class="overview">
-          <h3 class="overview__title">Overview</h3>
-          <p class="overview__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            nihil dolor consequuntur voluptatibus blanditiis iste totam optio
-            natus quidem ea!
-          </p>
-        </div>
-      </div>
-      <div class="movie">
-        <img class="movie__img" src="/img/movies.jpg" alt="movie image" />
-        <div class="movie__info">
-          <h3 class="movie__title">Title</h3>
-          <span class="movie__rating movie__rating--red">9.8</span>
-        </div>
-        <div class="overview">
-          <h3 class="overview__title">Overview</h3>
-          <p class="overview__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            nihil dolor consequuntur voluptatibus blanditiis iste totam optio
-            natus quidem ea!
-          </p>
-        </div>
-      </div> -->
-    </main>
+    <main class="main"></main>
+    <div class="pagination">
+      <ul class="pagination__list">
+        <li class="pagination__page pagination__page--prev" id="firstPage">
+          <span>
+            <i class="fas fa-angle-double-left"></i>
+          </span>
+        </li>
+        <li class="pagination__page pagination__page--prev" id="prevBtn">
+          <span>
+            <i class="fas fa-angle-left"></i>
+            Prev
+          </span>
+        </li>
+        <li class="pagination__current" id="currPage"></li>
+        <li class="pagination__page pagination__page--next" id="nextBtn">
+          <span>
+            Next
+            <i class="fas fa-angle-right"></i>
+          </span>
+        </li>
+        <li class="pagination__page pagination__page--next" id="lastPage">
+          <span>
+            <i class="fas fa-angle-double-right"></i>
+          </span>
+        </li>
+      </ul>
+    </div>
     <script src="/js/scripts.js"></script>
   </body>
 </html>
